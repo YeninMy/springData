@@ -19,7 +19,6 @@ public class Main {
             }
             bookService.saveBook(book);
         }
-
         bookService.getAllBooks().forEach(System.out::println);
     }
 }
